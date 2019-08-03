@@ -1,26 +1,24 @@
-Check captcha utility for web applications
-==============================
+# Check Google Captcha
+
 
 ## Related projects
-[tornado](https://github.com/reganto/tornado)
+[Improved Tornado](https://github.com/reganto/tornado)
 
-## Utility
-
-* `check captcha`
 
 ## Usage
 
-get a `secret code` and `data-sitekey` from [google recaptcha](https://www.google.com/recaptcha/admin#list)
+Get a `secret code` and `data-sitekey` from [google recaptcha](https://www.google.com/recaptcha/intro/v3.html)
 
 ```bash
-git clone https://github.com/reganto/CheckCaptcha
+git clone https://github.com/reganto/check-captcha.git
 ```
 
-insert `secret code` to utility
+Insert `secret code` to code
 
-then import utility to your project
+Then import function to your project
 
-finally add this lines to **your html**:
+
+**NOTE**: Finally add these lines to *your html*:
 ```html
 <script src='https://www.google.com/recaptcha/api.js'></script>
 ```
@@ -34,8 +32,8 @@ finally add this lines to **your html**:
 
 If you have improvements or bug fixes:
 
-* Fork the repository on GitHub
-* File an issue for the bug fix/feature request in GitHub
+* Fork the repository on GitHub or GitLab
+* File an issue for the bug fix/feature request in GitHub or GitLab
 * Create a topic branch
 * Push your modifications to that branch
 * Send a pull request
@@ -44,3 +42,4 @@ If you have improvements or bug fixes:
 
 * [Reganto Blog](http://reganto.blog.ir)
 * [Reganto Github](https://github.com/reganto)
+* [Reganto Gitlab](https://gitlab.com/reganto)
